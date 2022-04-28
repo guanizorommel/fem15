@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /*Colors*/
+    --Pale-Blue: hsl(225, 100%, 94%);
+    --Bright-Blue: hsl(245, 75%, 52%);
+    --Very-Pale-Blue: hsl(225, 100%, 98%);
+    --Desaturated-Blue: hsl(224, 23%, 55%);
+    --Dark-Blue: hsl(223,47%, 23%);  
+}
+
+body {
+    max-width: max-content; /*This makes the body in max-width based on the content*/
+    margin: auto; /*This makes the body all of its items inside automatically centered y and x axis*/
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--Pale-Blue);
+}
