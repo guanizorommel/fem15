@@ -20,4 +20,24 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: var(--Pale-Blue);
+
+    display: flex; /*Make this a flex so that items inside of it can be aligned*/
+    justify-content: center; /*Positions flex items to center horizontaly ( X axis )*/
+    align-items: center; /*Positions flex items to center vertically (Y axis>*/
+    flex-direction: column; /* The dafult is row, this makes it to column*/
 }
+
+
+.card-box { /*This is now flex item. parent is bodyr*/
+    background-color: var(--Very-Pale-Blue);
+    height: 460px; /*Sets hard height*/
+    width: 350px; /*Sets hard width*/
+    border-radius: 20px;
+    
+    margin-top: 20%; /*Adds top space by using margin in box model*/
+
+    display: flex; /*Make this a flex parent. all of items inside of this will become flex-item*/
+    flex-direction: column; /*The default flex-direction is row, i changed it to column*/
+    justify-content: space-between; /*add space between flex item depending on remaining space*/
+}
+
