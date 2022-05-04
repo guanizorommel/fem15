@@ -33,6 +33,7 @@ body {
     height: 460px; /*Sets hard height*/
     width: 350px; /*Sets hard width*/
     border-radius: 20px;
+    box-shadow: 0px 10px 5px -2px var(--Desaturated-Blue);
     
     margin-top: 20%; /*Adds top space by using margin in box model*/
 
@@ -41,3 +42,8 @@ body {
     justify-content: space-between; /*add space between flex item depending on remaining space*/
 }
 
+img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
